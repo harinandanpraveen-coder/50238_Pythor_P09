@@ -1,0 +1,56 @@
+AUTOMATED PUBLIC PROCUREMENT ANOMALY DETECTION (Root)
+│
+├── 1-A: Collusion & Bid Manipulation
+│   ├── 1. Bid Rigging (Cartel)
+│   ├── 2. Bid Rotation
+│   ├── 3. The 95% Rule
+│   ├── 4. Consortia as a Cartel Tool
+│   ├── 5. Bid Suppression
+│   └── 6. AI-Driven Collusion
+│
+├── 1-B: Price & Financial Anomaly
+│   ├── 7. Price Inflation
+│   ├── 8. Change Order Abuse
+│   ├── 9. Duplicate Invoices
+│   └── 10. Pass-Through Cartel
+│
+├── 1-C: Vendor Identity & Shell Networks
+│   ├── 11. Shell Companies
+│   ├── 12. Conflict of Interest
+│   ├── 13. Falsifying Employee Credentials
+│   ├── 14. Bypassing Central Supplier Database
+│   ├── 15. Fake Experience Fabrication
+│   ├── 16. AI-Enabled Vendor Identity Fraud
+│   └── 17. Corrupt IT Manager
+│
+├── 1-D: Procurement Process Manipulation
+│   ├── 18. Tender Splitting
+│   ├── 19. Insider Information Leak (Bullseye Bidding)
+│   ├── 20. The "Fake Emergency"
+│   ├── 21. E-Procurement Hacking
+│   └── 22. Impersonation / Fake Tenders
+│
+├── 1-E: Delivery & Execution Fraud
+│   ├── 23. Product Substitution
+│   ├── 24. Phantom Contracts
+│   ├── 25. Project Abandonment
+│   ├── 26. Duplicate Projects Under Different Names
+│   ├── 27. Substandard Execution
+│   ├── 28. Misrepresenting Project Status
+│   └── 29. Ghost Procurement
+│
+├── 1-F: AI-Powered & Synthetic Fraud
+│   ├── 30. AI-Tailored Tender Specifications
+│   ├── 31. Human-Like AI-Generated Bids
+│   ├── 32. AI-Generated Fake Documents
+│   ├── 33. AI Hallucinations (Fake Citations)
+│   ├── 34. AI-Generated Fake Reviews
+│   ├── 35. AI System Poisoning
+│   ├── 36. Rogue AI Agent
+│   ├── 37. Deepfake Fraud
+│   └── 38. AI-Generated Frivolous Legal Protests
+│
+└── 1-G: Grand Deception & Organized Schemes
+    ├── 39. The "Grand Illusion" (Fake Pentagon / Treaty Scam)
+    ├── 40. Pyramid Scheme Procurement Fraud
+    └── 41. Fictitious International Contracts

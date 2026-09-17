@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AUDIT-AI — Forensic Engine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:       #1B1E24;
+    --ink-soft:  #5C5F68;
+    --paper:     #E9E5D8;
+    --paper-hi:  #F6F3E9;
+    --line:      #C7C0AC;
+    --flag:      #8F2A1E;
+    --flag-bg:   #F2E3DF;
+    --clear:     #2E5C43;
+    --clear-bg:  #E2E9E0;
+    --accent:    #223655;
+    --serif: "Source Serif 4", Georgia, serif;
+    --sans:  "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+    --mono:  "IBM Plex Mono", "SF Mono", Menlo, monospace;
+  }
+
+  :root[data-theme="dark"]{
+    --ink:       #E7E2D2;
+    --ink-soft:  #9C9887;
+    --paper:     #1B1A16;
+    --paper-hi:  #232219;
+    --line:      #3B3A2F;
+    --flag:      #E2836F;
+    --flag-bg:   #3A241F;
+    --clear:     #8FBF9F;
+    --clear-bg:  #223228;
+    --accent:    #9BB6D8;
+  }
+
+  * { box-sizing: border-box; }
+
+  body{
+    margin:0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 48px 20px 80px;
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  .sheet{
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  /* ---------- Masthead ---------- */
+  .masthead{
+    border-top: 3px solid var(--ink);
+    border-bottom: 1px solid var(--line);
+    padding: 22px 0 18px;
+    margin-bottom: 36px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .masthead h1{
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .masthead .unit{
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-soft);
+    text-align: right;
+    line-height: 1.4;
+  }
+
+  .masthead-right{
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+  }
+
+  .theme-toggle{
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    background: transparent;
+    color: var(--ink-soft);
+    border: 1px solid var(--line);
+    padding: 6px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .theme-toggle:hover{ color: var(--ink); border-color: var(--ink-soft); }
+  .theme-toggle .dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+    flex-shrink: 0;
+  }
+
+  .lede{
+    color: var(--ink-soft);
+    max-width: 52ch;
+    margin: 0 0 34px;
+  }
+
+  /* ---------- Intake ---------- */
+  .intake{
+    background: var(--paper-hi);
+    border: 1px solid var(--line);
+    padding: 22px;
+    margin-bottom: 8px;
+  }
+  .intake-row{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .file-field{
+    flex: 1 1 260px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    padding: 9px 12px;
+    min-width: 0;
+  }
+  .file-field label{
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    flex-shrink: 0;
+  }
+  #fileName{
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #fileName.empty{ color: var(--ink-soft); }
+  input[type="file"]{ display: none; }
+
+  .btn{
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 14px;
+    background: var(--ink);
+    color: var(--paper-hi);
+    border: 1px solid var(--ink);
+    padding: 10px 18px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn:hover{ background: var(--accent); border-color: var(--accent); }
+  .btn:disabled{ background: var(--line); border-color: var(--line); color: var(--ink-soft); cursor: default; }
+  .btn.secondary{
+    background: transparent;
+    color: var(--ink);
+  }
+  .btn.secondary:hover{ background: var(--paper); color: var(--ink); }
+
+  .status-line{
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--ink-soft);
+    min-height: 18px;
+  }
+  .status-line.error{ color: var(--flag); }
+
+  /* ---------- Verdict ---------- */
+  .verdict{
+    display: none;
+    margin-top: 40px;
+    animation: rise 380ms ease-out both;
+  }
+  @keyframes rise{
+    from{ opacity: 0; transform: translateY(10px); }
+    to{ opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .verdict{ animation: none; }
+  }
+
+  .verdict-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--ink);
+    padding-bottom: 18px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .score-block .score-label{
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    display: block;
+    margin-bottom: 4px;
+  }
+  .score-block .score-num{
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .score-block .score-num sub{
+    font-family: var(--mono);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--ink-soft);
+    bottom: 0;
+  }
+
+  .stamp{
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 7px 14px;
+    border: 1.5px solid currentColor;
+    transform: rotate(-2deg);
+  }
+  .stamp.flagged{ color: var(--flag); background: var(--flag-bg); }
+  .stamp.clear{ color: var(--clear); background: var(--clear-bg); }
+
+  .mse-note{
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-soft);
+    margin-top: 8px;
+  }
+
+  /* ---------- Ledger ---------- */
+  .ledger-section{
+    padding: 22px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .ledger-section h2{
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0 0 12px;
+    color: var(--ink-soft);
+  }
+  .ledger-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6px 0;
+    border-bottom: 1px dotted var(--line);
+    gap: 16px;
+  }
+  .ledger-row:last-child{ border-bottom: none; }
+  .ledger-row .k{ color: var(--ink-soft); }
+  .ledger-row .v{
+    font-family: var(--mono);
+    font-size: 13.5px;
+    text-align: right;
+  }
+
+  /* ---------- Raw payload ---------- */
+  .payload-toggle{
+    margin-top: 26px;
+  }
+  .payload-toggle summary{
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .payload-toggle summary:hover{ color: var(--ink); }
+  pre{
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.6;
+    background: var(--paper-hi);
+    border: 1px solid var(--line);
+    padding: 16px;
+    overflow-x: auto;
+    margin-top: 12px;
+    color: var(--ink);
+  }
+
+  a, button, input, summary{
+    outline-offset: 2px;
+  }
+  a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible{
+    outline: 2px solid var(--accent);
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+
+    <header class="masthead">
+      <h1>AUDIT-AI</h1>
+      <div class="masthead-right">
+        <div class="unit">Forensic Review Unit<br>Tender Document Intake</div>
+        <button type="button" class="theme-toggle" id="themeToggle">
+          <span class="dot"></span><span id="themeToggleLabel">Dark</span>
+        </button>
+      </div>
+    </header>
+
+    <p class="lede">
+      Submit a tender PDF for anomaly review. The engine checks pricing,
+      vendor history, and document integrity, and returns a single
+      risk assessment with the underlying evidence.
+    </p>
+
+    <section class="intake">
+      <div class="intake-row">
+        <div class="file-field">
+          <label for="pdfFile">File</label>
+          <span id="fileName" class="empty">No file selected</span>
+        </div>
+        <button type="button" class="btn secondary" id="chooseBtn">Choose PDF</button>
+        <button type="button" class="btn" id="analyzeBtn">Run analysis</button>
+        <input type="file" id="pdfFile" accept=".pdf">
+      </div>
+      <div class="status-line" id="statusLine"></div>
+    </section>
+
+    <section class="verdict" id="results">
+      <div class="verdict-top">
+        <div class="score-block">
+          <span class="score-label">Risk score</span>
+          <span class="score-num" id="riskScoreVal">—<sub>/100</sub></span>
+          <div class="mse-note">Reconstruction error: <span id="mismatchMSE">—</span></div>
+        </div>
+        <div class="stamp" id="stampBadge">—</div>
+      </div>
+
+      <div class="ledger-section">
+        <h2>Financial</h2>
+        <div class="ledger-row"><span class="k">Estimated value</span><span class="v" id="mEstValue">—</span></div>
+        <div class="ledger-row"><span class="k">Bid amount</span><span class="v" id="mBidAmount">—</span></div>
+        <div class="ledger-row"><span class="k">Bid-to-estimate ratio</span><span class="v" id="mBidRatio">—</span></div>
+      </div>
+
+      <div class="ledger-section">
+        <h2>Vendor</h2>
+        <div class="ledger-row"><span class="k">Vendor age</span><span class="v" id="mVendorAge">—</span></div>
+        <div class="ledger-row"><span class="k">Employee count</span><span class="v" id="mEmpCount">—</span></div>
+        <div class="ledger-row"><span class="k">Category / department</span><span class="v" id="mCategory">—</span></div>
+      </div>
+
+      <div class="ledger-section" style="border-bottom:none;">
+        <h2>Document &amp; text</h2>
+        <div class="ledger-row"><span class="k">AI-generated text score</span><span class="v" id="mAiScore">—</span></div>
+        <div class="ledger-row"><span class="k">Change orders</span><span class="v" id="mChangeOrders">—</span></div>
+        <div class="ledger-row"><span class="k">Submission window</span><span class="v" id="mDeadline">—</span></div>
+      </div>
+
+      <details class="payload-toggle">
+        <summary>Full response record</summary>
+        <pre id="jsonPayload"></pre>
+      </details>
+    </section>
+
+  </div>
+
+<script>
+  // ---------- Theme ----------
+  (function () {
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const label = document.getElementById('themeToggleLabel');
+    const STORAGE_KEY = 'audit-ai-theme';
+
+    function apply(theme) {
+      if (theme === 'dark') {
+        root.setAttribute('data-theme', 'dark');
+        label.textContent = 'Light';
+      } else {
+        root.removeAttribute('data-theme');
+        label.textContent = 'Dark';
+      }
+    }
+
+    function getStored() {
+      try { return localStorage.getItem(STORAGE_KEY); }
+      catch (e) { return null; }
+    }
+
+    function setStored(theme) {
+      try { localStorage.setItem(STORAGE_KEY, theme); }
+      catch (e) { /* storage unavailable — theme just won't persist */ }
+    }
+
+    const systemPrefersDark = window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    const initial = getStored() || (systemPrefersDark ? 'dark' : 'light');
+    apply(initial);
+
+    toggle.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      apply(next);
+      setStored(next);
+    });
+  })();
+
+  // ---------- Analysis ----------
+  const pdfInput   = document.getElementById('pdfFile');
+  const chooseBtn  = document.getElementById('chooseBtn');
+  const analyzeBtn = document.getElementById('analyzeBtn');
+  const fileNameEl = document.getElementById('fileName');
+  const statusLine = document.getElementById('statusLine');
+  const results    = document.getElementById('results');
+
+  chooseBtn.addEventListener('click', () => pdfInput.click());
+
+  pdfInput.addEventListener('change', () => {
+    if (pdfInput.files.length > 0) {
+      fileNameEl.textContent = pdfInput.files[0].name;
+      fileNameEl.classList.remove('empty');
+    } else {
+      fileNameEl.textContent = 'No file selected';
+      fileNameEl.classList.add('empty');
+    }
+    setStatus('');
+  });
+
+  function setStatus(message, isError = false) {
+    statusLine.textContent = message;
+    statusLine.classList.toggle('error', isError);
+  }
+
+  function fmtCurrency(n) {
+    if (n === undefined || n === null || isNaN(n)) return '—';
+    return '₹' + Number(n).toLocaleString('en-IN');
+  }
+
+  async function uploadPDF() {
+    if (pdfInput.files.length === 0) {
+      setStatus('Select a PDF before running analysis.', true);
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append('file', pdfInput.files[0]);
+
+    analyzeBtn.disabled = true;
+    setStatus('Analyzing document…');
+    results.style.display = 'none';
+
+    try {
+      const response = await fetch('http://localhost:8000/predict', {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error('Server returned ' + response.status);
+
+      const data = await response.json();
+      const m = data.extracted_metrics || {};
+
+      document.getElementById('riskScoreVal').innerHTML =
+        (data.risk_score ?? '—') + '<sub>/100</sub>';
+      document.getElementById('mismatchMSE').textContent =
+        data.reconstruction_mse ?? '—';
+
+      const stamp = document.getElementById('stampBadge');
+      if (data.neural_flag) {
+        stamp.textContent = 'Anomaly flagged';
+        stamp.className = 'stamp flagged';
+      } else {
+        stamp.textContent = 'Passed review';
+        stamp.className = 'stamp clear';
+      }
+
+      document.getElementById('mEstValue').textContent = fmtCurrency(m.estimated_value);
+      document.getElementById('mBidAmount').textContent = fmtCurrency(m.bid_amount);
+      document.getElementById('mBidRatio').textContent = m.price_ratio_to_estimate ?? '—';
+
+      document.getElementById('mVendorAge').textContent =
+        m.vendor_age_days !== undefined ? m.vendor_age_days + ' days' : '—';
+      document.getElementById('mEmpCount').textContent = m.employee_count ?? '—';
+      document.getElementById('mCategory').textContent =
+        [m.category, m.department_id].filter(Boolean).join(' / ') || '—';
+
+      document.getElementById('mAiScore').textContent = m.ai_generated_text_score ?? '—';
+      document.getElementById('mChangeOrders').textContent = m.change_order_count ?? '—';
+      document.getElementById('mDeadline').textContent =
+        m.submission_deadline_days !== undefined ? m.submission_deadline_days + ' days' : '—';
+
+      document.getElementById('jsonPayload').textContent = JSON.stringify(data, null, 2);
+
+      results.style.display = 'block';
+      setStatus('Analysis complete.');
+    } catch (err) {
+      setStatus('Could not complete analysis — ' + err.message +
+        '. Confirm the backend is running at localhost:8000.', true);
+    } finally {
+      analyzeBtn.disabled = false;
+    }
+  }
+
+  analyzeBtn.addEventListener('click', uploadPDF);
+</script>
+</body>
+</html>

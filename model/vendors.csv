@@ -1,0 +1,501 @@
+vendor_id,vendor_name,registration_date,address,bank_account_number,director_name,employee_count,is_shell_gt,cartel_group,shared_address_count,shared_bank_account_count
+V-0000,Delta Traders LLP,2019-05-06,"378 Park Street, City-35",AC9963334018,Anita Sharma,7,False,,0,0
+V-0001,Vista Infra LLP,2005-09-02,"367 Old Market, City-27",AC6241752544,Kavita Patel,45,False,,0,0
+V-0002,Metro Industries Co,2023-02-26,"175 Ring Road, City-10",AC8574149614,Amit Verma,19,False,,0,0
+V-0003,Vista Supplies Pvt Ltd,2013-07-10,"374 New Town, City-35",AC9256195745,Amit Patel,13,False,,0,0
+V-0004,Vertex Enterprises LLP,2023-08-09,"361 Park Street, City-3",AC3840104345,Neha Verma,2,False,,0,0
+V-0005,Summit Logistics Ltd,2024-03-08,"84 Station Road, City-23",AC3783290795,Kavita Gupta,2,False,,0,0
+V-0006,Crown Supplies LLP,2016-12-24,"351 Station Road, City-4",AC6649827836,Neha Verma,1,False,,0,0
+V-0007,Nova Traders Co,2009-09-25,"203 New Town, City-10",AC2137651678,Priya Patel,30,False,,0,0
+V-0008,Crown Systems LLP,2021-10-03,"71 Old Market, City-32",AC1470939445,Sanjay Rao,13,False,,0,0
+V-0009,Pioneer Solutions Ltd,2018-05-18,"284 MG Road, City-8",AC8047877267,Amit Patel,18,False,,0,0
+V-0010,Summit Solutions LLP,2014-10-02,"348 Old Market, City-8",AC1854316681,Vikram Gupta,1,False,CARTEL-23,1,0
+V-0011,Bright Enterprises Ltd,2017-02-05,"251 MG Road, City-8",AC9285415473,Neha Mehta,52,False,,0,0
+V-0012,Prime Tech Co,2006-04-20,"36 Old Market, City-9",AC3361388464,Neha Rao,26,False,,0,0
+V-0013,Alpha Industries Ltd,2009-10-02,"205 Station Road, City-29",AC2939118223,Priya Mehta,3,False,,0,0
+V-0014,Delta Enterprises LLP,2006-06-09,"4 Park Street, City-4",AC1983297492,Rahul Singh,3,False,,0,0
+V-0015,Elite Traders LLP,2006-08-04,"371 Harbour Rd, City-37",AC3030106617,Rohit Rao,3,False,,0,0
+V-0016,Vertex Works Co,2009-04-09,"240 MG Road, City-7",AC5555296751,Vikram Verma,5,False,,0,0
+V-0017,Union Works LLP,2010-07-30,"143 New Town, City-16",AC5618742930,Suresh Verma,11,False,,0,0
+V-0018,Bright Tech LLP,2006-02-19,"86 Civil Lines, City-32",AC3067418686,Anita Sharma,8,False,,0,0
+V-0019,Summit Contractors Co,2008-09-10,"147 Civil Lines, City-36",AC3090237817,Priya Patel,5,False,,0,0
+V-0020,National Infra Ltd,2009-11-19,"30 MG Road, City-38",AC3281169403,Rahul Verma,14,False,,0,0
+V-0021,Delta Works Pvt Ltd,2024-02-05,"292 Sector 12, City-38",AC3553440342,Kavita Verma,2,False,,0,0
+V-0022,Nova Contractors Ltd,2014-05-28,"105 Station Road, City-16",AC6435772945,Sanjay Patel,5,False,,0,0
+V-0023,Prime Infra Co,2015-04-04,"319 Harbour Rd, City-7",AC9904586976,Priya Patel,6,False,,0,0
+V-0024,Delta Systems Ltd,2007-12-22,"81 New Town, City-35",AC8316648259,Kavita Sharma,9,False,,0,0
+V-0025,Silver Contractors LLP,2019-12-25,"136 Park Street, City-7",AC5962610986,Neha Mehta,23,False,,0,0
+V-0026,Summit Solutions Co,2021-02-04,"129 MG Road, City-6",AC8019198243,Neha Sharma,3,False,,0,0
+V-0027,Summit Builders Co,2005-01-30,"283 Civil Lines, City-36",AC1041531046,Amit Gupta,10,False,,0,0
+V-0028,National Builders Co,2017-03-28,"66 MG Road, City-20",AC2536778950,Priya Verma,1,True,,0,0
+V-0029,Vista Industries LLP,2022-07-01,"122 Industrial Ave, City-12",AC9080621072,Rahul Gupta,13,False,,0,0
+V-0030,Horizon Services LLP,2021-07-09,"137 Industrial Ave, City-7",AC3021598245,Priya Iyer,1,False,,0,0
+V-0031,Delta Traders Pvt Ltd,2012-11-04,"338 Sector 12, City-26",AC6704841644,Amit Patel,14,False,,0,0
+V-0032,National Systems Pvt Ltd,2012-11-16,"60 Ring Road, City-12",AC9519284858,Rahul Verma,2,False,,0,0
+V-0033,Nova Works Pvt Ltd,2018-05-20,"198 Harbour Rd, City-13",AC2094024844,Anita Sharma,1,False,,0,0
+V-0034,Alpha Systems Co,2016-08-30,"36 Station Road, City-40",AC4642197907,Neha Patel,44,False,,0,0
+V-0035,Global Solutions LLP,2019-12-17,"99 Civil Lines, City-25",AC4877520294,Kavita Patel,50,False,,0,0
+V-0036,Alpha Works Ltd,2014-02-09,"151 Civil Lines, City-35",AC5001713266,Suresh Iyer,24,False,CARTEL-09,2,3
+V-0037,Metro Group Pvt Ltd,2022-10-21,"146 Old Market, City-40",AC2439622619,Priya Patel,5,False,,0,0
+V-0038,Apex Traders Co,2010-01-15,"313 Park Street, City-30",AC8285786023,Rohit Rao,1,False,,0,0
+V-0039,Silver Services Co,2010-06-22,"113 Industrial Ave, City-34",AC2995226582,Suresh Mehta,17,False,,0,0
+V-0040,Pioneer Group Ltd,2024-01-11,"387 New Town, City-40",AC8995059760,Rohit Patel,8,False,,0,0
+V-0041,Coastal Logistics LLP,2021-11-11,"141 New Town, City-5",AC8359619163,Priya Patel,1,False,,0,0
+V-0042,Union Builders LLP,2012-07-14,"197 Industrial Ave, City-14",AC5570828113,Anita Singh,10,False,,0,0
+V-0043,Crown Contractors Pvt Ltd,2017-03-04,"392 Harbour Rd, City-25",AC3048612358,Vikram Patel,1,False,CARTEL-13,0,0
+V-0044,Horizon Solutions LLP,2021-11-25,"250 Sector 12, City-18",AC7166868574,Rahul Rao,36,False,,0,0
+V-0045,Metro Associates Co,2012-07-16,"66 Harbour Rd, City-35",AC1116402431,Anita Gupta,4,False,,0,0
+V-0046,Nova Systems Co,2024-06-11,"134 Sector 12, City-31",AC4631453750,Rohit Sharma,16,False,CARTEL-12,2,1
+V-0047,Vertex Traders Pvt Ltd,2021-10-20,"400 MG Road, City-2",AC5078551333,Priya Sharma,5,False,,0,0
+V-0048,Silver Enterprises LLP,2018-12-08,"239 Ring Road, City-24",AC4518871744,Neha Verma,11,False,,0,0
+V-0049,Crown Works LLP,2017-12-24,"39 Harbour Rd, City-16",AC8612747444,Kavita Verma,2,True,,0,0
+V-0050,Vertex Tech Ltd,2022-07-22,"7 Civil Lines, City-32",AC5748253283,Vikram Iyer,2,True,,0,0
+V-0051,Summit Enterprises Co,2008-06-07,"239 Civil Lines, City-38",AC6447717367,Priya Verma,11,False,,0,0
+V-0052,Pioneer Enterprises Co,2011-04-04,"173 MG Road, City-32",AC8949781901,Sanjay Iyer,3,False,,0,0
+V-0053,Summit Contractors Ltd,2009-10-04,"285 MG Road, City-34",AC5071897791,Amit Mehta,52,False,,0,0
+V-0054,Delta Industries Co,2021-02-24,"331 New Town, City-29",AC4405620755,Amit Patel,22,False,,0,0
+V-0055,Regal Systems Co,2009-12-21,"284 Old Market, City-23",AC6715705115,Rohit Patel,42,False,,0,0
+V-0056,Alpha Systems Pvt Ltd,2011-11-17,"381 Old Market, City-12",AC1822662216,Rohit Patel,33,False,,0,0
+V-0057,Alpha Supplies LLP,2021-04-02,"185 Industrial Ave, City-20",AC9650701349,Suresh Gupta,13,False,,0,0
+V-0058,Union Group Co,2011-02-26,"53 MG Road, City-37",AC5001713266,Rohit Iyer,1,True,CARTEL-09,0,3
+V-0059,Elite Tech Pvt Ltd,2009-02-19,"206 New Town, City-5",AC3948284698,Sanjay Gupta,38,False,,0,0
+V-0060,Delta Tech Co,2023-03-12,"311 Harbour Rd, City-40",AC7539399243,Rohit Iyer,1,False,,1,0
+V-0061,Global Enterprises Pvt Ltd,2011-09-02,"313 Park Street, City-14",AC3686566602,Neha Verma,3,False,,0,0
+V-0062,Metro Infra Co,2008-07-10,"231 Harbour Rd, City-31",AC2250949136,Priya Patel,1,False,,0,0
+V-0063,Prime Group LLP,2020-11-09,"136 Harbour Rd, City-13",AC2825957977,Suresh Mehta,5,False,,0,0
+V-0064,Union Tech Pvt Ltd,2019-07-12,"85 Ring Road, City-39",AC6534540349,Amit Iyer,7,False,,0,0
+V-0065,Pioneer Tech Pvt Ltd,2020-06-12,"222 Station Road, City-39",AC2075321966,Amit Mehta,4,False,,0,0
+V-0066,Bright Services Ltd,2020-02-15,"296 MG Road, City-12",AC8093179263,Neha Gupta,26,False,,0,0
+V-0067,Prime Logistics Ltd,2018-02-17,"210 Station Road, City-21",AC3878201524,Sanjay Singh,6,False,,0,0
+V-0068,Crown Associates Pvt Ltd,2014-03-27,"233 Park Street, City-21",AC6379012098,Amit Rao,4,False,,0,0
+V-0069,National Logistics Co,2024-05-26,"28 Sector 12, City-34",AC8543865915,Rohit Sharma,11,False,,0,0
+V-0070,Global Logistics Co,2009-07-26,"63 MG Road, City-39",AC4433026356,Sanjay Patel,2,False,,0,0
+V-0071,Delta Associates Pvt Ltd,2017-05-10,"237 Park Street, City-10",AC8372755146,Suresh Patel,1,True,,0,0
+V-0072,Pioneer Solutions LLP,2023-09-22,"197 Sector 12, City-39",AC4776677517,Amit Patel,24,False,,0,0
+V-0073,Coastal Supplies Pvt Ltd,2022-05-01,"145 Ring Road, City-38",AC8129391249,Sanjay Iyer,1,False,,0,0
+V-0074,National Works Co,2017-01-30,"165 Sector 12, City-16",AC7750819485,Priya Rao,65,False,,0,0
+V-0075,Elite Infra LLP,2005-12-24,"258 Harbour Rd, City-22",AC4735334423,Rohit Verma,22,False,,0,0
+V-0076,Horizon Associates LLP,2016-10-18,"39 New Town, City-17",AC8270110908,Amit Singh,3,False,CARTEL-04,0,0
+V-0077,Nova Group Co,2024-02-13,"278 MG Road, City-40",AC1293864877,Neha Mehta,1,False,,0,0
+V-0078,Silver Logistics LLP,2021-10-01,"356 Ring Road, City-2",AC5492496998,Rahul Patel,25,False,,0,0
+V-0079,Coastal Works LLP,2013-01-15,"88 Industrial Ave, City-6",AC3934040683,Rohit Gupta,18,False,,0,0
+V-0080,Summit Group Pvt Ltd,2010-03-18,"239 Ring Road, City-35",AC1678500147,Rohit Singh,19,False,,0,0
+V-0081,Alpha Works Co,2018-03-07,"55 Sector 12, City-25",AC7751356568,Kavita Patel,22,False,,0,0
+V-0082,Crown Supplies Pvt Ltd,2020-09-07,"290 MG Road, City-39",AC8495457335,Neha Mehta,1,False,,0,0
+V-0083,Alpha Enterprises Ltd,2018-08-14,"348 Industrial Ave, City-7",AC3776011793,Neha Iyer,6,False,,0,0
+V-0084,Prime Contractors Ltd,2005-10-01,"168 Civil Lines, City-12",AC1862407093,Suresh Singh,1,False,,0,0
+V-0085,Metro Supplies Co,2016-11-27,"152 Station Road, City-8",AC1323408297,Priya Rao,29,False,,0,0
+V-0086,Crown Infra Ltd,2023-12-21,"275 Park Street, City-30",AC2595467139,Priya Iyer,14,False,,0,0
+V-0087,Nova Contractors LLP,2005-07-25,"332 Park Street, City-30",AC2753617371,Sanjay Sharma,6,False,,0,0
+V-0088,Silver Traders LLP,2005-11-01,"199 New Town, City-24",AC9381721143,Rahul Singh,1,False,,0,0
+V-0089,National Contractors Ltd,2009-11-15,"32 Civil Lines, City-18",AC2952996248,Priya Sharma,5,False,,0,0
+V-0090,Union Services LLP,2006-02-19,"36 Old Market, City-14",AC3518496186,Priya Singh,5,False,,0,0
+V-0091,Bright Supplies LLP,2022-05-15,"67 Old Market, City-17",AC4429590757,Amit Sharma,19,False,,0,0
+V-0092,Delta Enterprises Ltd,2007-12-16,"9 Industrial Ave, City-17",AC1225052083,Anita Verma,2,True,,0,0
+V-0093,Coastal Enterprises Pvt Ltd,2006-06-05,"232 Old Market, City-15",AC9776185998,Suresh Patel,15,False,,0,0
+V-0094,Crown Works Pvt Ltd,2015-04-11,"363 Industrial Ave, City-11",AC2021795614,Vikram Gupta,32,False,CARTEL-15,2,1
+V-0095,Regal Solutions Ltd,2006-06-23,"196 Harbour Rd, City-34",AC6561543484,Suresh Rao,9,False,,0,0
+V-0096,National Industries LLP,2007-03-24,"221 New Town, City-15",AC7072283057,Rohit Rao,1,False,,0,0
+V-0097,Nova Group Ltd,2014-05-01,"192 Industrial Ave, City-31",AC1288335378,Amit Verma,18,False,,0,0
+V-0098,Union Solutions Pvt Ltd,2014-09-08,"301 Old Market, City-36",AC5819946657,Vikram Rao,21,False,,0,0
+V-0099,Vista Supplies Ltd,2024-06-21,"151 Civil Lines, City-35",AC5001713266,Rohit Mehta,12,False,CARTEL-09,2,3
+V-0100,Regal Traders Co,2024-01-02,"288 Harbour Rd, City-40",AC3391179068,Kavita Patel,22,False,,0,0
+V-0101,Global Contractors Ltd,2005-08-26,"180 MG Road, City-12",AC4736031885,Kavita Rao,10,False,,0,0
+V-0102,Crown Works Co,2006-07-25,"175 Industrial Ave, City-24",AC3560761628,Rahul Gupta,11,False,,0,0
+V-0103,Summit Logistics Co,2008-07-13,"35 Old Market, City-14",AC7073872915,Priya Verma,8,False,CARTEL-02,0,0
+V-0104,Regal Logistics Ltd,2012-09-28,"24 Sector 12, City-26",AC1235286733,Priya Patel,1,False,,0,0
+V-0105,Global Systems Pvt Ltd,2009-09-27,"4 New Town, City-28",AC1754603440,Anita Mehta,1,False,,0,0
+V-0106,Vertex Tech Co,2016-03-22,"380 MG Road, City-28",AC5375461598,Amit Singh,1,False,,0,0
+V-0107,Horizon Supplies Pvt Ltd,2017-11-30,"208 MG Road, City-21",AC2554145481,Anita Verma,15,False,,0,0
+V-0108,Prime Works Ltd,2010-06-17,"382 Station Road, City-15",AC1722124509,Suresh Verma,5,False,,0,0
+V-0109,Vertex Systems LLP,2016-11-25,"121 Park Street, City-10",AC2099375147,Sanjay Gupta,10,False,,0,0
+V-0110,Elite Logistics Co,2022-01-19,"349 Harbour Rd, City-40",AC2357806226,Rohit Verma,35,False,CARTEL-24,0,0
+V-0111,Summit Enterprises Pvt Ltd,2015-07-09,"181 Old Market, City-5",AC6628158856,Rohit Sharma,4,False,,0,0
+V-0112,Prime Enterprises Co,2006-04-12,"237 Harbour Rd, City-36",AC5471158508,Kavita Mehta,7,False,,0,0
+V-0113,Apex Logistics Pvt Ltd,2012-03-18,"176 Park Street, City-33",AC3775094726,Rahul Mehta,21,False,,0,0
+V-0114,Coastal Enterprises LLP,2020-11-14,"187 Station Road, City-19",AC6958908766,Vikram Sharma,3,False,,0,0
+V-0115,Nova Tech Co,2022-09-14,"146 Ring Road, City-39",AC4750707607,Vikram Verma,1,False,,0,0
+V-0116,Global Group Co,2018-01-26,"67 Harbour Rd, City-6",AC8695129534,Sanjay Verma,5,False,,0,0
+V-0117,Bright Systems Ltd,2019-06-29,"93 Sector 12, City-22",AC3088517710,Priya Gupta,2,False,,0,0
+V-0118,Silver Solutions Pvt Ltd,2008-06-23,"339 Station Road, City-40",AC2617999521,Sanjay Gupta,39,False,,0,0
+V-0119,Apex Works Ltd,2023-08-25,"347 Sector 12, City-29",AC7917454662,Rohit Mehta,24,False,,0,0
+V-0120,Elite Contractors LLP,2016-12-23,"189 Harbour Rd, City-29",AC7560389844,Sanjay Mehta,15,False,,0,0
+V-0121,Apex Group Co,2022-12-21,"191 Old Market, City-7",AC5830454240,Amit Gupta,30,False,,0,0
+V-0122,Horizon Tech LLP,2011-02-13,"231 Station Road, City-2",AC2781968664,Anita Singh,24,False,,0,0
+V-0123,Bright Systems Pvt Ltd,2010-04-16,"85 Ring Road, City-8",AC1590985753,Neha Iyer,3,False,CARTEL-07,1,0
+V-0124,Elite Logistics Pvt Ltd,2020-08-12,"41 MG Road, City-17",AC2817865363,Neha Mehta,33,False,,0,0
+V-0125,Vista Logistics Pvt Ltd,2011-10-04,"57 New Town, City-39",AC3302333490,Suresh Mehta,11,False,,0,0
+V-0126,Vista Systems LLP,2021-02-12,"293 Civil Lines, City-12",AC9957643727,Vikram Verma,24,False,,0,0
+V-0127,Coastal Solutions Pvt Ltd,2016-10-19,"200 New Town, City-3",AC8025152555,Vikram Patel,33,False,,0,0
+V-0128,Regal Industries Ltd,2021-10-06,"69 MG Road, City-23",AC7640078465,Sanjay Iyer,2,True,,0,0
+V-0129,Prime Industries Co,2015-09-26,"19 Ring Road, City-13",AC5474951950,Neha Rao,5,False,,0,0
+V-0130,Alpha Supplies Ltd,2023-04-16,"400 MG Road, City-22",AC2173456409,Vikram Rao,1,False,,0,0
+V-0131,Elite Industries Co,2024-12-13,"189 Old Market, City-18",AC4440904834,Anita Verma,3,False,,0,0
+V-0132,National Supplies Ltd,2014-08-29,"53 Park Street, City-21",AC8133593748,Neha Iyer,8,False,,0,0
+V-0133,Pioneer Systems Co,2018-07-08,"22 Station Road, City-40",AC9581991473,Neha Sharma,25,False,,0,0
+V-0134,Coastal Services LLP,2006-09-07,"16 Industrial Ave, City-39",AC2881937953,Sanjay Verma,29,False,,0,0
+V-0135,Crown Enterprises Pvt Ltd,2010-04-18,"310 Industrial Ave, City-29",AC9370133343,Vikram Iyer,1,False,,0,0
+V-0136,Vertex Works Ltd,2022-02-12,"333 Ring Road, City-16",AC5125402225,Rahul Gupta,10,False,,0,0
+V-0137,Silver Supplies Ltd,2016-03-12,"361 New Town, City-14",AC3109688769,Amit Gupta,8,False,,0,0
+V-0138,Pioneer Tech Ltd,2024-02-17,"342 Station Road, City-5",AC1963110410,Priya Gupta,3,False,,0,0
+V-0139,National Builders Pvt Ltd,2010-04-24,"34 Ring Road, City-26",AC8382488970,Suresh Rao,1,False,CARTEL-17,0,0
+V-0140,Union Systems Pvt Ltd,2022-04-02,"231 New Town, City-34",AC2479679716,Suresh Gupta,6,False,,0,0
+V-0141,Apex Associates Pvt Ltd,2022-03-22,"266 Industrial Ave, City-20",AC1707196784,Vikram Mehta,42,False,,0,0
+V-0142,Global Associates Pvt Ltd,2012-10-05,"129 Sector 12, City-36",AC2178758213,Neha Verma,5,False,,0,0
+V-0143,Regal Builders LLP,2016-04-10,"338 Harbour Rd, City-39",AC4709911999,Amit Sharma,10,False,,0,0
+V-0144,Alpha Services Co,2019-05-22,"317 MG Road, City-32",AC7638204740,Neha Iyer,18,False,,0,0
+V-0145,Global Logistics Pvt Ltd,2010-06-30,"353 MG Road, City-11",AC7183058541,Rohit Iyer,6,False,,0,0
+V-0146,Nova Industries Ltd,2009-07-30,"205 Industrial Ave, City-24",AC5751023835,Priya Iyer,53,False,,0,0
+V-0147,Silver Infra Ltd,2007-10-01,"197 Harbour Rd, City-27",AC2343100352,Sanjay Iyer,49,False,,0,0
+V-0148,Elite Infra Pvt Ltd,2016-07-18,"202 Old Market, City-30",AC5151887478,Priya Singh,4,False,,0,0
+V-0149,Elite Supplies Pvt Ltd,2006-02-03,"56 Civil Lines, City-9",AC9085085822,Vikram Rao,1,True,,0,0
+V-0150,Alpha Systems Ltd,2006-01-06,"38 Civil Lines, City-33",AC7656585531,Kavita Verma,10,False,,0,0
+V-0151,Nova Solutions Ltd,2007-11-21,"387 Industrial Ave, City-13",AC1172893522,Rahul Gupta,5,False,,0,0
+V-0152,Pioneer Builders LLP,2021-01-02,"168 Harbour Rd, City-21",AC5992908271,Kavita Patel,5,False,,0,0
+V-0153,National Logistics Ltd,2018-04-26,"244 MG Road, City-24",AC3702653209,Kavita Iyer,1,False,,0,0
+V-0154,Regal Enterprises LLP,2010-12-16,"370 MG Road, City-38",AC3063511828,Suresh Rao,14,False,,0,0
+V-0155,Regal Industries Pvt Ltd,2008-04-25,"98 MG Road, City-29",AC6642266247,Sanjay Rao,10,False,,0,0
+V-0156,Vista Contractors Co,2020-06-27,"377 MG Road, City-9",AC3227727430,Suresh Singh,1,False,,0,0
+V-0157,Metro Logistics Ltd,2019-11-08,"280 Station Road, City-17",AC7915226263,Priya Mehta,4,False,,0,0
+V-0158,Global Services Ltd,2011-04-05,"361 Sector 12, City-32",AC6656646925,Vikram Patel,35,False,,0,0
+V-0159,Crown Contractors Co,2011-06-16,"177 Industrial Ave, City-19",AC5475641477,Amit Singh,4,False,,0,0
+V-0160,Alpha Traders Ltd,2014-12-03,"288 Ring Road, City-9",AC2027708670,Rahul Mehta,2,False,,0,0
+V-0161,Nova Industries Co,2019-04-24,"52 Industrial Ave, City-1",AC5973319056,Rohit Iyer,10,False,,0,0
+V-0162,Nova Supplies Pvt Ltd,2019-08-05,"394 Park Street, City-37",AC4957687327,Anita Gupta,63,False,,0,0
+V-0163,Elite Builders Ltd,2005-10-25,"20 MG Road, City-20",AC9516893896,Neha Iyer,4,False,,0,0
+V-0164,Union Associates Co,2019-05-21,"140 Sector 12, City-8",AC2420277403,Rohit Patel,16,False,,0,0
+V-0165,Global Enterprises LLP,2021-02-12,"90 Harbour Rd, City-26",AC8846861559,Suresh Singh,21,False,,0,0
+V-0166,Elite Systems LLP,2006-12-12,"360 Sector 12, City-15",AC6671348907,Neha Singh,4,False,CARTEL-04,2,1
+V-0167,Summit Group Ltd,2011-10-10,"355 Sector 12, City-4",AC3868119543,Rohit Patel,19,False,,0,0
+V-0168,Global Industries Pvt Ltd,2008-08-01,"328 Ring Road, City-24",AC3639796200,Priya Gupta,6,False,,0,0
+V-0169,Vista Systems Co,2015-09-23,"360 Old Market, City-31",AC4545940090,Priya Verma,15,False,,0,0
+V-0170,Prime Contractors Pvt Ltd,2016-10-14,"32 Old Market, City-33",AC3304937838,Sanjay Singh,15,False,,0,0
+V-0171,Alpha Industries Co,2024-03-01,"47 Old Market, City-29",AC4473306055,Rohit Gupta,11,False,,0,0
+V-0172,Bright Works Ltd,2016-07-06,"2 Sector 12, City-38",AC1313659437,Anita Singh,1,False,,0,0
+V-0173,Prime Contractors Co,2020-09-16,"17 Ring Road, City-27",AC9434381915,Vikram Rao,27,False,,0,0
+V-0174,Crown Tech LLP,2015-01-23,"335 Station Road, City-8",AC7602474923,Suresh Gupta,5,False,,0,0
+V-0175,Bright Supplies Co,2021-04-29,"345 Old Market, City-28",AC7579604766,Priya Mehta,3,False,,0,0
+V-0176,Silver Infra Co,2015-05-02,"315 MG Road, City-16",AC1885113834,Amit Sharma,1,False,,0,0
+V-0177,Apex Traders Pvt Ltd,2015-01-06,"206 New Town, City-15",AC3318250726,Rahul Gupta,13,False,,0,0
+V-0178,Regal Systems Ltd,2016-04-20,"122 Ring Road, City-10",AC3238756255,Anita Patel,16,False,,0,0
+V-0179,Metro Group Co,2011-03-05,"285 New Town, City-4",AC9470922075,Anita Singh,1,False,,0,0
+V-0180,Crown Builders Co,2020-08-14,"124 Sector 12, City-20",AC9837427517,Anita Rao,10,False,,0,0
+V-0181,Summit Traders Ltd,2017-07-02,"332 Park Street, City-29",AC8933377472,Amit Mehta,3,False,,0,0
+V-0182,Vista Infra Pvt Ltd,2006-02-27,"97 Harbour Rd, City-36",AC6227046160,Priya Singh,15,False,,0,0
+V-0183,Silver Industries Co,2011-10-20,"34 Sector 12, City-30",AC1374988236,Rohit Singh,2,False,CARTEL-06,0,1
+V-0184,Elite Services Ltd,2011-12-02,"105 Station Road, City-21",AC2777816561,Kavita Mehta,17,False,,0,0
+V-0185,Regal Enterprises Co,2021-08-17,"152 Industrial Ave, City-13",AC2416760621,Anita Mehta,7,False,,0,0
+V-0186,Nova Supplies Co,2016-03-14,"371 New Town, City-30",AC8709361138,Sanjay Gupta,41,False,,0,0
+V-0187,National Group Pvt Ltd,2021-02-26,"269 MG Road, City-5",AC3869963931,Rahul Rao,2,False,,0,0
+V-0188,Union Infra LLP,2008-02-01,"259 New Town, City-24",AC9849565863,Kavita Iyer,6,False,,0,0
+V-0189,Horizon Infra Pvt Ltd,2019-10-15,"13 Civil Lines, City-32",AC9493209128,Rahul Rao,1,False,CARTEL-17,0,0
+V-0190,Silver Solutions LLP,2023-01-31,"124 Sector 12, City-40",AC7556078550,Vikram Patel,38,False,,0,0
+V-0191,Crown Logistics LLP,2022-10-31,"357 Sector 12, City-20",AC4641561499,Rahul Verma,31,False,,0,0
+V-0192,Apex Group Pvt Ltd,2014-02-03,"360 Industrial Ave, City-6",AC8663837890,Kavita Verma,4,False,,0,0
+V-0193,Apex Contractors Pvt Ltd,2016-11-05,"351 Ring Road, City-35",AC1141312095,Vikram Sharma,16,False,,0,0
+V-0194,Global Builders LLP,2009-08-25,"291 Civil Lines, City-35",AC6719736115,Sanjay Verma,25,False,,0,0
+V-0195,Silver Works LLP,2016-03-26,"39 Station Road, City-39",AC8617360361,Rahul Patel,12,False,,0,0
+V-0196,Vertex Solutions Co,2022-07-29,"222 Industrial Ave, City-38",AC8132531532,Amit Patel,11,False,,0,0
+V-0197,Crown Systems Ltd,2022-11-25,"55 Park Street, City-1",AC9344950649,Rohit Singh,4,False,CARTEL-08,0,0
+V-0198,Metro Works Co,2022-01-28,"286 Old Market, City-33",AC2752536389,Rahul Verma,1,False,,0,0
+V-0199,Nova Associates Co,2012-12-09,"7 Ring Road, City-27",AC9953716239,Suresh Mehta,34,False,,0,0
+V-0200,Metro Builders Ltd,2017-10-30,"155 Ring Road, City-32",AC1626785308,Sanjay Rao,34,False,,0,0
+V-0201,Prime Systems Ltd,2011-03-11,"127 New Town, City-39",AC3648572296,Rohit Verma,15,False,,0,0
+V-0202,Nova Logistics Ltd,2008-01-15,"221 Harbour Rd, City-9",AC6585327015,Kavita Mehta,6,False,,0,0
+V-0203,Regal Services LLP,2015-09-30,"167 Civil Lines, City-18",AC6982610835,Amit Mehta,6,False,,0,0
+V-0204,National Infra Co,2018-04-14,"363 Sector 12, City-29",AC8721000527,Amit Rao,19,False,,0,0
+V-0205,Delta Supplies LLP,2020-02-05,"367 Civil Lines, City-25",AC5612645121,Kavita Iyer,34,False,,0,0
+V-0206,Horizon Solutions Pvt Ltd,2018-01-22,"185 Old Market, City-39",AC1364994639,Priya Singh,32,False,,0,0
+V-0207,Crown Services Ltd,2008-09-24,"221 Park Street, City-1",AC5718479235,Priya Mehta,22,False,CARTEL-20,0,0
+V-0208,Regal Industries LLP,2014-12-31,"177 MG Road, City-31",AC5744003377,Anita Verma,15,False,,0,0
+V-0209,Vertex Supplies Ltd,2007-08-09,"234 Sector 12, City-34",AC7369118672,Rohit Verma,1,False,,0,0
+V-0210,Prime Supplies Pvt Ltd,2014-10-30,"364 Park Street, City-2",AC8942167666,Amit Gupta,2,False,,0,0
+V-0211,Metro Systems Co,2021-08-11,"237 Sector 12, City-26",AC3704799972,Sanjay Rao,34,False,,0,0
+V-0212,Alpha Logistics Co,2013-11-15,"200 MG Road, City-14",AC6178804925,Amit Verma,2,True,,0,0
+V-0213,Silver Supplies Co,2009-03-12,"271 Station Road, City-39",AC5785590330,Vikram Iyer,13,False,,0,0
+V-0214,Global Contractors Pvt Ltd,2018-11-06,"345 Industrial Ave, City-21",AC1506211965,Neha Verma,1,False,,0,0
+V-0215,Regal Works Co,2009-02-08,"96 New Town, City-35",AC5294535887,Suresh Gupta,1,False,,0,0
+V-0216,Pioneer Enterprises Pvt Ltd,2015-12-26,"184 MG Road, City-32",AC1586412136,Anita Iyer,16,False,,0,0
+V-0217,Pioneer Logistics LLP,2014-03-06,"43 Harbour Rd, City-2",AC6242134332,Rahul Patel,1,False,,0,0
+V-0218,National Solutions Pvt Ltd,2010-01-16,"294 Park Street, City-18",AC8382963909,Suresh Mehta,2,False,,0,0
+V-0219,Delta Supplies Pvt Ltd,2014-07-15,"231 Ring Road, City-23",AC5668556448,Amit Mehta,11,False,,0,0
+V-0220,Vertex Associates Co,2009-09-16,"85 Harbour Rd, City-9",AC4370902138,Priya Sharma,17,False,,0,0
+V-0221,National Builders Ltd,2017-10-15,"361 Ring Road, City-19",AC7754847890,Suresh Verma,15,False,,0,0
+V-0222,Apex Supplies LLP,2008-01-16,"360 Industrial Ave, City-16",AC6981604165,Sanjay Patel,3,False,,0,0
+V-0223,Vertex Logistics Co,2019-01-31,"168 Harbour Rd, City-1",AC9989974968,Rohit Singh,18,False,,0,0
+V-0224,Alpha Works LLP,2024-01-26,"254 Ring Road, City-21",AC8852676046,Vikram Gupta,4,False,,0,0
+V-0225,Apex Infra Pvt Ltd,2017-09-12,"321 New Town, City-2",AC4683585586,Rohit Iyer,5,False,,0,0
+V-0226,Union Contractors Ltd,2005-01-06,"82 Ring Road, City-6",AC8106401208,Neha Verma,20,False,,0,0
+V-0227,Silver Infra LLP,2013-05-05,"245 Park Street, City-9",AC3549834042,Suresh Iyer,15,False,,0,0
+V-0228,Silver Associates Co,2005-03-18,"356 Industrial Ave, City-31",AC1304205279,Anita Verma,2,True,,0,0
+V-0229,Global Builders Co,2023-01-29,"397 Industrial Ave, City-10",AC9883760207,Kavita Sharma,28,False,,0,0
+V-0230,Alpha Group LLP,2018-09-09,"211 Harbour Rd, City-29",AC4693510920,Amit Verma,16,False,,0,0
+V-0231,Crown Systems Co,2008-02-21,"162 Industrial Ave, City-16",AC1361845490,Suresh Patel,12,False,,0,0
+V-0232,Global Traders LLP,2022-06-22,"342 Industrial Ave, City-37",AC9256181725,Priya Iyer,1,False,CARTEL-21,1,1
+V-0233,Vista Tech Pvt Ltd,2013-08-28,"185 Station Road, City-9",AC7102562415,Suresh Gupta,6,False,,0,0
+V-0234,Prime Infra Pvt Ltd,2022-02-09,"8 Ring Road, City-14",AC8684942020,Suresh Patel,4,False,,0,0
+V-0235,Horizon Industries Co,2019-02-06,"43 Old Market, City-35",AC3645901955,Neha Verma,4,False,,0,0
+V-0236,Union Solutions Ltd,2011-12-14,"201 Harbour Rd, City-5",AC2024939794,Priya Verma,54,False,,0,0
+V-0237,Bright Builders Co,2014-09-30,"178 Old Market, City-34",AC8390631634,Sanjay Singh,7,False,,0,0
+V-0238,Silver Services Pvt Ltd,2007-11-06,"172 Civil Lines, City-18",AC3249936731,Neha Verma,33,False,,0,0
+V-0239,Elite Associates LLP,2016-02-17,"189 Industrial Ave, City-17",AC4321422584,Kavita Verma,14,False,,0,0
+V-0240,Delta Infra Co,2010-02-15,"187 Civil Lines, City-10",AC9741819989,Anita Mehta,23,False,CARTEL-00,0,0
+V-0241,Regal Systems Pvt Ltd,2012-03-21,"258 MG Road, City-12",AC2721959126,Rohit Patel,10,False,,0,0
+V-0242,National Logistics Pvt Ltd,2022-05-08,"189 Sector 12, City-19",AC3674551397,Rohit Singh,12,False,,0,0
+V-0243,Alpha Industries LLP,2018-04-10,"78 MG Road, City-27",AC1102693781,Suresh Singh,10,False,,0,0
+V-0244,Nova Infra Co,2019-04-07,"378 Ring Road, City-7",AC5222449983,Anita Iyer,3,False,,0,0
+V-0245,Summit Tech Pvt Ltd,2006-05-06,"119 Old Market, City-27",AC6894808149,Amit Verma,19,False,,0,0
+V-0246,Prime Enterprises Pvt Ltd,2016-05-03,"223 Industrial Ave, City-16",AC6547706290,Vikram Rao,4,False,,0,0
+V-0247,Pioneer Supplies LLP,2020-09-19,"39 Sector 12, City-9",AC3511301900,Sanjay Verma,1,False,,0,0
+V-0248,Silver Solutions Ltd,2008-09-08,"395 Sector 12, City-29",AC6619138852,Neha Verma,15,False,,0,0
+V-0249,Nova Builders Pvt Ltd,2007-01-11,"365 Sector 12, City-23",AC9800175892,Neha Patel,2,False,,0,0
+V-0250,Silver Logistics Pvt Ltd,2023-05-25,"72 Park Street, City-1",AC1954720281,Priya Rao,42,False,CARTEL-12,0,0
+V-0251,Prime Enterprises Ltd,2013-05-08,"39 MG Road, City-5",AC8069459895,Sanjay Verma,46,False,,0,0
+V-0252,Metro Contractors Co,2024-01-02,"371 Civil Lines, City-32",AC5421592782,Anita Gupta,36,False,,0,0
+V-0253,Summit Logistics LLP,2012-12-09,"18 Harbour Rd, City-40",AC3649896750,Neha Iyer,6,False,,0,0
+V-0254,Prime Supplies Co,2014-03-30,"71 Civil Lines, City-13",AC8358870981,Rohit Iyer,1,False,,0,0
+V-0255,Bright Systems LLP,2012-09-19,"16 Ring Road, City-4",AC1685583357,Priya Mehta,39,False,,0,0
+V-0256,Apex Services LLP,2010-12-24,"295 Civil Lines, City-23",AC1746087503,Priya Singh,8,False,,0,0
+V-0257,Regal Infra Ltd,2023-01-31,"291 Harbour Rd, City-10",AC2327372855,Rohit Sharma,51,False,,0,0
+V-0258,Bright Solutions Co,2007-01-10,"1 Station Road, City-40",AC5855415646,Sanjay Singh,0,True,,0,0
+V-0259,Union Services Pvt Ltd,2005-06-29,"270 Station Road, City-5",AC5728897164,Neha Singh,49,False,,0,0
+V-0260,Horizon Services Co,2008-01-23,"333 Station Road, City-12",AC2532554057,Kavita Gupta,28,False,,0,0
+V-0261,Union Builders Pvt Ltd,2013-06-27,"360 Harbour Rd, City-26",AC3437319900,Sanjay Singh,5,False,,0,0
+V-0262,Regal Tech Co,2023-02-21,"73 Station Road, City-5",AC6317152031,Vikram Gupta,7,False,,0,0
+V-0263,Nova Logistics Pvt Ltd,2019-04-09,"136 Sector 12, City-16",AC3977168607,Vikram Patel,28,False,CARTEL-22,0,0
+V-0264,Pioneer Industries Co,2022-08-27,"134 Sector 12, City-31",AC9082143437,Vikram Rao,5,False,CARTEL-12,2,0
+V-0265,Regal Group LLP,2007-04-11,"84 New Town, City-5",AC5438474114,Rahul Singh,2,False,,0,0
+V-0266,Crown Builders Pvt Ltd,2010-11-10,"241 Old Market, City-35",AC9158080779,Sanjay Rao,12,False,CARTEL-05,1,0
+V-0267,Global Supplies LLP,2008-07-10,"50 MG Road, City-26",AC8902114913,Sanjay Sharma,1,True,,0,0
+V-0268,Vista Logistics LLP,2005-02-01,"50 MG Road, City-14",AC5646880148,Amit Patel,41,False,,0,0
+V-0269,Summit Tech Co,2022-08-09,"95 Station Road, City-25",AC2586568081,Rohit Sharma,17,False,,0,0
+V-0270,Prime Group Ltd,2010-11-27,"278 Civil Lines, City-38",AC7539441086,Suresh Iyer,12,False,,0,0
+V-0271,Prime Works Pvt Ltd,2017-11-05,"258 Harbour Rd, City-34",AC3664052763,Amit Iyer,1,False,,0,0
+V-0272,Alpha Services LLP,2008-11-17,"65 MG Road, City-28",AC8228968839,Priya Gupta,14,False,,0,0
+V-0273,National Works Ltd,2023-09-17,"142 Old Market, City-30",AC8652281649,Amit Rao,69,False,,0,0
+V-0274,Silver Contractors Pvt Ltd,2008-05-10,"289 Park Street, City-19",AC9075121701,Anita Patel,2,False,,0,0
+V-0275,Summit Works LLP,2013-08-04,"317 Harbour Rd, City-26",AC5461537013,Vikram Mehta,10,False,,0,0
+V-0276,Vertex Infra Ltd,2006-02-08,"156 Ring Road, City-18",AC8914965741,Amit Mehta,31,False,,0,0
+V-0277,Vista Group Pvt Ltd,2008-01-06,"97 New Town, City-14",AC9831336766,Sanjay Verma,20,False,,0,0
+V-0278,Coastal Contractors Pvt Ltd,2011-12-24,"89 Sector 12, City-13",AC4594787485,Priya Sharma,17,False,,0,0
+V-0279,Pioneer Solutions Co,2015-03-29,"326 Park Street, City-2",AC6334083514,Rohit Iyer,0,True,,0,0
+V-0280,Vertex Builders Ltd,2024-07-10,"384 Park Street, City-19",AC5412866242,Rahul Gupta,18,False,,0,0
+V-0281,Delta Group LLP,2024-02-25,"347 Sector 12, City-18",AC8093513594,Suresh Sharma,6,False,,0,0
+V-0282,Bright Logistics LLP,2024-05-24,"332 Industrial Ave, City-39",AC4439688162,Priya Patel,5,False,,0,0
+V-0283,Summit Works Co,2018-08-24,"179 New Town, City-17",AC6232168056,Neha Rao,24,False,,0,0
+V-0284,Vertex Solutions Ltd,2018-02-10,"153 Park Street, City-31",AC5569145346,Neha Singh,24,False,,0,0
+V-0285,Apex Services Co,2024-04-28,"339 Station Road, City-9",AC4097887746,Rohit Patel,30,False,,0,0
+V-0286,Apex Enterprises LLP,2010-10-27,"176 Sector 12, City-35",AC3397657114,Neha Verma,36,False,,0,0
+V-0287,National Services LLP,2015-07-24,"349 Station Road, City-6",AC6249538855,Priya Patel,10,False,,0,0
+V-0288,Summit Enterprises Ltd,2014-06-07,"238 Park Street, City-31",AC3665691647,Rohit Mehta,10,False,,0,0
+V-0289,Coastal Supplies Co,2016-03-23,"28 Industrial Ave, City-9",AC5262101582,Vikram Rao,24,False,,0,0
+V-0290,Union Systems LLP,2017-10-09,"399 Park Street, City-32",AC5237588145,Vikram Sharma,15,False,,0,0
+V-0291,Metro Enterprises LLP,2005-02-08,"251 Park Street, City-9",AC7934137693,Anita Rao,18,False,,0,0
+V-0292,Apex Solutions LLP,2014-08-16,"375 Station Road, City-1",AC9126105576,Suresh Mehta,23,False,,0,0
+V-0293,Delta Traders Ltd,2005-05-27,"160 Industrial Ave, City-7",AC7823288650,Sanjay Verma,33,False,,0,0
+V-0294,Pioneer Industries Ltd,2023-06-24,"223 Industrial Ave, City-22",AC7400268709,Priya Gupta,1,True,,0,0
+V-0295,Union Traders Pvt Ltd,2005-06-06,"302 Old Market, City-11",AC5823943986,Rahul Rao,6,False,,0,0
+V-0296,Silver Group Pvt Ltd,2024-08-29,"25 Park Street, City-27",AC7203282627,Amit Patel,7,False,,0,0
+V-0297,Silver Group Ltd,2015-08-23,"319 Harbour Rd, City-9",AC4859551800,Suresh Verma,1,False,,0,0
+V-0298,Alpha Enterprises LLP,2011-05-05,"399 Ring Road, City-34",AC5179517389,Vikram Rao,12,False,,0,0
+V-0299,Nova Traders Pvt Ltd,2011-08-17,"7 Park Street, City-8",AC8168394616,Sanjay Verma,1,False,,0,0
+V-0300,Silver Contractors Ltd,2022-06-26,"330 Sector 12, City-30",AC6566372886,Rohit Sharma,9,False,,0,0
+V-0301,Global Systems Ltd,2007-03-29,"219 Park Street, City-7",AC4823775103,Rahul Gupta,11,False,,0,0
+V-0302,Pioneer Enterprises Ltd,2019-11-18,"376 Park Street, City-24",AC8795212264,Sanjay Verma,5,False,,0,0
+V-0303,Crown Industries Co,2013-12-28,"216 Industrial Ave, City-8",AC4119911995,Sanjay Verma,13,False,,0,0
+V-0304,Regal Group Co,2014-05-02,"93 Harbour Rd, City-25",AC8641452462,Kavita Sharma,1,False,,0,0
+V-0305,Union Logistics Co,2024-05-07,"58 Civil Lines, City-29",AC1197449658,Neha Singh,1,False,,0,0
+V-0306,Nova Solutions Pvt Ltd,2005-04-12,"222 Sector 12, City-31",AC2653032484,Suresh Sharma,25,False,,0,0
+V-0307,Elite Associates Co,2005-04-06,"85 Park Street, City-32",AC2377111768,Vikram Patel,6,False,,0,0
+V-0308,Prime Logistics Co,2006-02-17,"294 New Town, City-6",AC8973989997,Rohit Singh,2,False,,0,0
+V-0309,Bright Tech Co,2007-08-31,"212 MG Road, City-36",AC3358361363,Amit Patel,11,False,,0,0
+V-0310,Pioneer Systems Ltd,2024-12-18,"28 Sector 12, City-30",AC7871737874,Vikram Iyer,22,False,,0,0
+V-0311,Global Solutions Ltd,2007-07-24,"360 Park Street, City-3",AC4852057916,Rohit Gupta,3,False,,0,0
+V-0312,Silver Supplies LLP,2023-06-08,"97 Park Street, City-26",AC6220917178,Priya Singh,14,False,,0,0
+V-0313,Pioneer Group LLP,2007-06-02,"256 MG Road, City-34",AC4162014755,Suresh Rao,1,False,CARTEL-20,0,0
+V-0314,Metro Industries LLP,2023-10-25,"375 Industrial Ave, City-7",AC9086117171,Suresh Rao,1,False,,0,0
+V-0315,Delta Supplies Co,2014-05-23,"176 Ring Road, City-29",AC4456576082,Sanjay Rao,11,False,,0,0
+V-0316,Global Associates Ltd,2018-07-07,"365 Old Market, City-14",AC1862812038,Kavita Patel,11,False,,0,0
+V-0317,Metro Solutions Ltd,2020-05-26,"364 Park Street, City-23",AC7709942406,Kavita Rao,15,False,,0,0
+V-0318,Global Contractors Co,2020-02-15,"7 Old Market, City-7",AC5403510324,Sanjay Sharma,19,False,,0,0
+V-0319,Metro Supplies Ltd,2020-01-13,"75 MG Road, City-19",AC3324316421,Vikram Iyer,0,True,,0,0
+V-0320,Delta Solutions Ltd,2018-10-27,"355 MG Road, City-25",AC6959501845,Vikram Sharma,55,False,,0,0
+V-0321,Pioneer Associates LLP,2005-04-17,"325 Station Road, City-38",AC3591527330,Priya Patel,10,False,,0,0
+V-0322,Metro Builders Pvt Ltd,2015-01-25,"194 MG Road, City-28",AC2134900434,Sanjay Patel,5,False,,0,0
+V-0323,Nova Enterprises Pvt Ltd,2005-02-16,"397 Harbour Rd, City-20",AC2537965898,Vikram Mehta,23,False,,0,0
+V-0324,Prime Systems LLP,2009-02-15,"110 Station Road, City-22",AC6844582171,Priya Iyer,4,False,,0,0
+V-0325,Bright Tech Ltd,2017-08-04,"229 Sector 12, City-40",AC9761206076,Vikram Rao,8,False,,0,0
+V-0326,National Industries Ltd,2022-11-10,"13 Old Market, City-24",AC7479970041,Rohit Sharma,1,False,,0,0
+V-0327,Coastal Tech Pvt Ltd,2011-08-26,"86 Old Market, City-35",AC9621419224,Amit Mehta,1,False,,0,0
+V-0328,Horizon Associates Pvt Ltd,2020-01-14,"106 Old Market, City-28",AC5036200310,Sanjay Sharma,49,False,,0,0
+V-0329,Apex Builders Ltd,2015-04-20,"286 Park Street, City-37",AC4528828126,Neha Rao,27,False,CARTEL-02,0,0
+V-0330,Prime Systems Pvt Ltd,2013-09-14,"149 Ring Road, City-39",AC5666504394,Rohit Rao,17,False,,0,0
+V-0331,National Traders LLP,2013-11-11,"241 Old Market, City-35",AC3723205427,Neha Singh,7,False,CARTEL-05,1,0
+V-0332,Silver Infra Pvt Ltd,2005-04-02,"294 Harbour Rd, City-26",AC5067245523,Neha Mehta,2,False,,0,0
+V-0333,Metro Builders LLP,2021-10-14,"316 Ring Road, City-13",AC1492300084,Kavita Sharma,2,False,,0,0
+V-0334,Global Group Pvt Ltd,2024-02-05,"129 Park Street, City-13",AC6715961218,Sanjay Mehta,4,False,,0,0
+V-0335,Nova Logistics Co,2007-03-31,"169 Harbour Rd, City-20",AC1374988236,Vikram Rao,11,False,CARTEL-06,0,1
+V-0336,Summit Associates Ltd,2008-10-13,"69 Station Road, City-31",AC7282885927,Vikram Patel,1,True,,0,0
+V-0337,Prime Associates Ltd,2017-05-17,"72 Old Market, City-13",AC9918338001,Amit Sharma,18,False,,0,0
+V-0338,Regal Works LLP,2024-01-21,"19 Old Market, City-17",AC4329446784,Vikram Rao,16,False,CARTEL-18,0,0
+V-0339,Crown Systems Pvt Ltd,2010-01-04,"340 Sector 12, City-40",AC3938451957,Suresh Gupta,4,False,,0,0
+V-0340,Elite Systems Pvt Ltd,2015-01-04,"113 New Town, City-15",AC5564953924,Vikram Mehta,46,False,,0,0
+V-0341,Pioneer Contractors Pvt Ltd,2005-12-17,"21 Station Road, City-7",AC8858274691,Neha Gupta,20,False,,0,0
+V-0342,Prime Solutions Ltd,2013-06-13,"193 Sector 12, City-34",AC7038046278,Vikram Iyer,12,False,,0,0
+V-0343,Coastal Contractors LLP,2022-10-12,"226 Industrial Ave, City-15",AC9921025990,Neha Mehta,14,False,,0,0
+V-0344,Silver Group LLP,2008-05-15,"213 Station Road, City-8",AC7351460539,Priya Gupta,8,False,,0,0
+V-0345,Union Enterprises LLP,2019-07-09,"27 Park Street, City-25",AC6865168092,Sanjay Patel,4,False,CARTEL-01,1,0
+V-0346,Regal Group Pvt Ltd,2009-01-14,"369 Ring Road, City-6",AC6225228951,Kavita Iyer,6,False,,0,0
+V-0347,Horizon Enterprises LLP,2024-06-14,"299 Industrial Ave, City-40",AC2136107759,Vikram Iyer,21,False,,0,0
+V-0348,Bright Traders Co,2018-05-19,"77 Harbour Rd, City-7",AC6056989774,Kavita Sharma,1,False,,0,0
+V-0349,Silver Tech Co,2024-09-08,"338 Industrial Ave, City-39",AC7101791420,Rahul Rao,1,False,,0,0
+V-0350,Horizon Builders Ltd,2010-02-23,"245 Sector 12, City-6",AC7050091525,Priya Sharma,1,False,,0,0
+V-0351,Crown Group LLP,2020-11-27,"18 Station Road, City-23",AC2555936898,Sanjay Rao,1,False,CARTEL-16,1,0
+V-0352,Vista Supplies Co,2019-08-13,"387 Sector 12, City-27",AC7689680766,Sanjay Singh,29,False,,0,0
+V-0353,Global Enterprises Ltd,2017-07-17,"397 Civil Lines, City-9",AC3831598303,Priya Iyer,18,False,,0,0
+V-0354,Alpha Solutions Co,2022-07-26,"174 Old Market, City-40",AC4035639663,Sanjay Rao,9,False,,0,0
+V-0355,Elite Contractors Co,2019-04-07,"360 Sector 12, City-15",AC6671348907,Amit Sharma,2,True,CARTEL-04,2,1
+V-0356,Pioneer Infra LLP,2013-08-15,"337 Old Market, City-19",AC1836429847,Kavita Mehta,1,False,,0,0
+V-0357,Bright Builders Pvt Ltd,2018-10-19,"85 Ring Road, City-8",AC8171143901,Anita Mehta,10,False,CARTEL-07,1,0
+V-0358,Vertex Associates Ltd,2016-08-12,"116 Harbour Rd, City-13",AC5314945131,Sanjay Rao,2,True,,0,0
+V-0359,Nova Tech Ltd,2007-05-23,"276 Harbour Rd, City-17",AC8276498637,Anita Iyer,9,False,,0,0
+V-0360,Pioneer Group Co,2022-04-09,"301 MG Road, City-31",AC5794335854,Amit Rao,2,False,,0,0
+V-0361,Delta Services Ltd,2019-03-19,"212 Station Road, City-34",AC3300607428,Neha Mehta,8,False,,0,0
+V-0362,Nova Tech LLP,2011-06-12,"244 Station Road, City-23",AC7759044245,Sanjay Mehta,7,False,,0,0
+V-0363,Delta Associates Ltd,2016-03-11,"106 Sector 12, City-13",AC4586042076,Kavita Singh,14,False,,0,0
+V-0364,Prime Group Co,2008-07-01,"315 MG Road, City-35",AC5114549022,Rohit Singh,15,False,,0,0
+V-0365,Regal Associates Ltd,2018-12-03,"252 Industrial Ave, City-33",AC6498703287,Priya Gupta,1,False,,0,0
+V-0366,Crown Associates LLP,2006-03-20,"235 Park Street, City-34",AC7270955446,Rahul Sharma,7,False,,0,0
+V-0367,Nova Systems Ltd,2020-02-14,"96 Old Market, City-17",AC6313472215,Rohit Singh,14,False,,0,0
+V-0368,Horizon Industries Ltd,2013-03-17,"187 Civil Lines, City-18",AC2935866295,Kavita Gupta,10,False,,0,0
+V-0369,Summit Services LLP,2017-12-01,"285 Civil Lines, City-25",AC1842085114,Sanjay Iyer,29,False,,0,0
+V-0370,Elite Supplies Ltd,2023-01-27,"288 Harbour Rd, City-4",AC2711123163,Sanjay Sharma,0,True,,0,0
+V-0371,Silver Logistics Ltd,2023-04-03,"134 Station Road, City-24",AC6401844042,Rahul Rao,16,False,,0,0
+V-0372,Vista Traders LLP,2007-09-21,"400 Ring Road, City-23",AC7487309853,Rohit Verma,2,False,,0,0
+V-0373,Union Associates LLP,2013-07-19,"328 Station Road, City-27",AC7750131975,Amit Verma,1,False,,0,0
+V-0374,Global Industries Ltd,2008-08-20,"310 Civil Lines, City-18",AC9107574572,Vikram Iyer,15,False,,0,0
+V-0375,Union Industries LLP,2014-04-15,"339 Ring Road, City-6",AC1904397668,Anita Verma,1,False,,0,0
+V-0376,National Infra Pvt Ltd,2007-02-22,"395 Civil Lines, City-34",AC1357561213,Neha Gupta,13,False,,0,0
+V-0377,Global Logistics LLP,2006-11-22,"68 Old Market, City-11",AC1122712790,Vikram Singh,42,False,,0,0
+V-0378,National Logistics LLP,2024-05-20,"358 Old Market, City-12",AC7587552692,Vikram Iyer,12,False,,0,0
+V-0379,Union Supplies Pvt Ltd,2017-02-07,"1 Old Market, City-9",AC6771941776,Rohit Sharma,7,False,CARTEL-09,0,0
+V-0380,Horizon Services Ltd,2020-06-05,"306 Sector 12, City-1",AC7649520759,Priya Rao,15,False,,0,0
+V-0381,Crown Traders Ltd,2024-10-14,"41 Civil Lines, City-16",AC6462619080,Suresh Patel,9,False,,0,0
+V-0382,Global Tech Co,2014-04-06,"360 Sector 12, City-15",AC3113106808,Vikram Sharma,11,False,CARTEL-04,2,0
+V-0383,Metro Tech Ltd,2008-05-31,"138 Industrial Ave, City-29",AC4122901114,Priya Verma,0,True,,0,0
+V-0384,Global Services Co,2005-05-01,"191 New Town, City-3",AC2418407139,Sanjay Sharma,42,False,,0,0
+V-0385,Metro Traders Ltd,2010-12-24,"363 Industrial Ave, City-11",AC2021795614,Anita Iyer,7,False,CARTEL-15,2,1
+V-0386,Elite Works Ltd,2010-07-18,"166 Industrial Ave, City-3",AC5819561096,Rohit Patel,48,False,CARTEL-14,0,0
+V-0387,Alpha Tech LLP,2009-06-16,"342 Industrial Ave, City-37",AC9256181725,Neha Verma,35,False,CARTEL-21,1,1
+V-0388,Regal Services Co,2013-11-17,"27 Park Street, City-25",AC1384313264,Sanjay Iyer,3,False,CARTEL-01,1,0
+V-0389,Apex Infra Ltd,2007-01-19,"331 Industrial Ave, City-35",AC4399321649,Sanjay Iyer,1,False,,0,0
+V-0390,Vertex Services Co,2010-03-22,"376 Sector 12, City-2",AC8255273416,Vikram Gupta,1,False,,0,0
+V-0391,National Industries Co,2010-08-16,"98 Harbour Rd, City-12",AC7629799769,Vikram Iyer,1,False,,0,0
+V-0392,Coastal Builders Co,2011-03-06,"152 Ring Road, City-35",AC6871704354,Rahul Rao,1,False,,0,0
+V-0393,Vista Traders Ltd,2021-06-16,"297 Station Road, City-21",AC8812759121,Priya Iyer,17,False,CARTEL-11,0,0
+V-0394,Nova Works Ltd,2022-03-05,"57 Park Street, City-34",AC3829915449,Rahul Gupta,1,False,,0,0
+V-0395,Elite Traders Pvt Ltd,2009-01-03,"17 Harbour Rd, City-25",AC8120717574,Suresh Patel,5,False,,0,0
+V-0396,Prime Infra LLP,2006-02-07,"336 New Town, City-6",AC3744126400,Vikram Rao,27,False,,0,0
+V-0397,Prime Traders Pvt Ltd,2023-06-10,"52 Sector 12, City-35",AC2654984428,Priya Mehta,1,False,,0,0
+V-0398,National Works Pvt Ltd,2017-10-14,"393 Harbour Rd, City-23",AC8191890793,Anita Verma,25,False,,0,0
+V-0399,Coastal Systems LLP,2008-09-28,"274 Harbour Rd, City-29",AC9304405028,Vikram Singh,4,False,,0,0
+V-0400,Horizon Associates Ltd,2023-12-14,"312 Sector 12, City-37",AC3343446878,Anita Patel,1,False,,0,0
+V-0401,Crown Infra Pvt Ltd,2013-01-28,"146 Harbour Rd, City-2",AC3223115272,Neha Sharma,17,False,,0,0
+V-0402,Nova Infra Ltd,2011-09-27,"284 Old Market, City-36",AC3455054143,Amit Sharma,14,False,,0,0
+V-0403,Vertex Contractors LLP,2015-04-30,"120 Ring Road, City-20",AC9984664080,Anita Mehta,31,False,,0,0
+V-0404,Elite Builders Co,2021-06-21,"354 Harbour Rd, City-7",AC2290179211,Kavita Rao,19,False,,0,0
+V-0405,Horizon Contractors Pvt Ltd,2006-10-05,"395 Sector 12, City-39",AC4988535000,Anita Sharma,24,False,,0,0
+V-0406,Regal Builders Ltd,2011-11-02,"258 Sector 12, City-10",AC9806915522,Anita Iyer,4,False,,0,0
+V-0407,Delta Works Ltd,2021-11-20,"202 Industrial Ave, City-9",AC2443831341,Rohit Sharma,2,False,,0,0
+V-0408,Union Logistics LLP,2017-04-18,"18 Station Road, City-23",AC5930382855,Amit Patel,20,False,CARTEL-16,1,0
+V-0409,Regal Tech Pvt Ltd,2022-06-04,"344 Civil Lines, City-28",AC6863779898,Priya Singh,24,False,,0,0
+V-0410,Vista Builders Co,2012-09-23,"151 Civil Lines, City-35",AC5001713266,Sanjay Verma,69,False,CARTEL-09,2,3
+V-0411,Vista Contractors LLP,2007-07-10,"148 MG Road, City-22",AC5772902637,Rohit Iyer,7,False,,0,0
+V-0412,Bright Works Pvt Ltd,2005-07-06,"131 Industrial Ave, City-4",AC2219828872,Kavita Patel,6,False,,0,0
+V-0413,Vertex Associates Pvt Ltd,2006-03-11,"10 Ring Road, City-25",AC6649840375,Kavita Verma,22,False,,0,0
+V-0414,National Contractors Pvt Ltd,2009-03-08,"21 Sector 12, City-34",AC6604621025,Rohit Rao,6,False,,0,0
+V-0415,Vertex Systems Ltd,2021-09-12,"121 Old Market, City-18",AC4487053308,Neha Rao,40,False,,0,0
+V-0416,National Supplies LLP,2024-12-21,"78 Station Road, City-26",AC3821500440,Amit Rao,29,False,,0,0
+V-0417,Delta Works LLP,2016-09-05,"294 Industrial Ave, City-28",AC9463392724,Kavita Singh,8,False,,0,0
+V-0418,Union Supplies LLP,2015-01-28,"221 Industrial Ave, City-37",AC4938966574,Vikram Verma,20,False,,0,0
+V-0419,Metro Systems LLP,2017-07-02,"373 MG Road, City-21",AC7061280172,Rohit Patel,21,False,,0,0
+V-0420,Metro Infra Ltd,2008-05-29,"311 Harbour Rd, City-40",AC1997216402,Rahul Singh,1,False,,1,0
+V-0421,Coastal Associates Co,2006-10-14,"365 Station Road, City-12",AC8954835349,Rohit Iyer,34,False,,0,0
+V-0422,Horizon Services Pvt Ltd,2008-02-01,"139 Civil Lines, City-15",AC5244473159,Priya Verma,10,False,,0,0
+V-0423,Vista Logistics Ltd,2008-12-21,"235 Sector 12, City-28",AC9769577087,Anita Singh,26,False,,0,0
+V-0424,Vista Solutions Pvt Ltd,2013-11-03,"267 Park Street, City-29",AC4769980437,Priya Rao,5,False,,0,0
+V-0425,Apex Traders Ltd,2021-06-28,"226 Civil Lines, City-20",AC6522961108,Sanjay Rao,1,True,,0,0
+V-0426,Prime Industries Pvt Ltd,2018-10-02,"93 Harbour Rd, City-35",AC5876105046,Anita Singh,33,False,,0,0
+V-0427,Alpha Contractors Co,2015-02-11,"47 Ring Road, City-21",AC4420882289,Amit Verma,0,True,,0,0
+V-0428,Coastal Industries Co,2020-11-03,"373 Old Market, City-40",AC5079161918,Anita Rao,7,False,,0,0
+V-0429,Regal Associates LLP,2005-12-26,"84 Industrial Ave, City-12",AC5515344181,Neha Patel,1,False,,0,0
+V-0430,Metro Tech LLP,2021-05-18,"104 MG Road, City-40",AC8582317251,Rahul Iyer,35,False,,0,0
+V-0431,Bright Enterprises Co,2016-02-29,"122 Sector 12, City-38",AC8127372046,Rohit Rao,1,False,,0,0
+V-0432,Delta Contractors Ltd,2014-11-29,"318 Old Market, City-14",AC1210104660,Sanjay Sharma,5,False,,0,0
+V-0433,Apex Group Ltd,2019-08-27,"170 Park Street, City-4",AC5762636174,Sanjay Gupta,44,False,,0,0
+V-0434,Vista Enterprises LLP,2020-01-28,"234 Harbour Rd, City-24",AC5000675383,Amit Patel,45,False,,0,0
+V-0435,Prime Services Co,2012-03-29,"282 Park Street, City-19",AC3022142957,Amit Patel,12,False,,0,0
+V-0436,Alpha Enterprises Pvt Ltd,2012-05-20,"56 Harbour Rd, City-34",AC5239945630,Rohit Patel,14,False,,0,0
+V-0437,Coastal Enterprises Ltd,2014-07-31,"67 Harbour Rd, City-37",AC7432749100,Sanjay Mehta,8,False,,0,0
+V-0438,Silver Industries LLP,2020-11-22,"316 Civil Lines, City-27",AC5490354768,Vikram Mehta,5,False,,0,0
+V-0439,Summit Services Pvt Ltd,2005-04-03,"158 Ring Road, City-33",AC7657171838,Rahul Verma,5,False,,0,0
+V-0440,Regal Enterprises Pvt Ltd,2020-05-20,"90 Sector 12, City-22",AC8876219703,Rohit Iyer,16,False,,0,0
+V-0441,Pioneer Services Co,2022-11-19,"381 MG Road, City-34",AC3301610601,Priya Singh,1,True,,0,0
+V-0442,Bright Systems Co,2006-06-27,"321 Old Market, City-11",AC2673174406,Kavita Verma,20,False,,0,0
+V-0443,Nova Industries Pvt Ltd,2024-05-23,"140 Civil Lines, City-6",AC6315632990,Rohit Patel,23,False,,0,0
+V-0444,Vertex Services Pvt Ltd,2009-11-06,"399 Sector 12, City-6",AC3147716902,Priya Singh,23,False,,0,0
+V-0445,Coastal Group LLP,2015-11-05,"106 MG Road, City-30",AC1497511785,Neha Sharma,1,False,,0,0
+V-0446,Alpha Systems LLP,2020-05-30,"99 Ring Road, City-18",AC7581074488,Rohit Verma,10,False,,0,0
+V-0447,Bright Enterprises Pvt Ltd,2011-02-12,"106 Old Market, City-23",AC7654474836,Neha Gupta,1,False,,0,0
+V-0448,Vista Contractors Ltd,2020-10-19,"277 New Town, City-4",AC1558663601,Rohit Sharma,11,False,,0,0
+V-0449,Vista Systems Ltd,2007-05-18,"134 Sector 12, City-31",AC4631453750,Kavita Gupta,8,False,CARTEL-12,2,1
+V-0450,Pioneer Tech Co,2007-02-01,"159 New Town, City-31",AC1961189885,Kavita Patel,32,False,,0,0
+V-0451,Nova Services Ltd,2013-02-25,"233 New Town, City-2",AC5575708685,Amit Singh,6,False,,0,0
+V-0452,Coastal Tech Co,2015-09-27,"366 Park Street, City-21",AC7274839226,Kavita Rao,1,False,,0,0
+V-0453,Elite Works Pvt Ltd,2010-05-09,"175 Sector 12, City-38",AC9504916685,Kavita Singh,2,False,,0,0
+V-0454,Silver Enterprises Co,2017-03-19,"167 Old Market, City-7",AC8825529426,Sanjay Patel,21,False,,0,0
+V-0455,Vista Services Co,2014-02-07,"168 New Town, City-4",AC1388836304,Sanjay Sharma,14,False,,0,0
+V-0456,National Supplies Co,2021-12-24,"316 Harbour Rd, City-29",AC1840381733,Vikram Patel,1,False,,0,0
+V-0457,Vista Solutions Co,2017-10-16,"66 Ring Road, City-4",AC1228180081,Suresh Singh,1,False,,0,0
+V-0458,Delta Works Co,2007-06-18,"321 Station Road, City-25",AC7038864267,Anita Mehta,18,False,,0,0
+V-0459,Prime Group Pvt Ltd,2019-11-11,"74 New Town, City-28",AC1583152392,Sanjay Rao,1,False,,0,0
+V-0460,Coastal Works Co,2024-04-17,"197 Station Road, City-15",AC6092933720,Kavita Sharma,25,False,,0,0
+V-0461,National Enterprises Ltd,2017-12-18,"18 MG Road, City-37",AC2583033048,Kavita Iyer,18,False,,0,0
+V-0462,Coastal Associates Ltd,2020-06-27,"239 Old Market, City-6",AC3620233330,Priya Iyer,1,False,,0,0
+V-0463,Vista Infra Ltd,2019-02-23,"274 MG Road, City-31",AC9186444252,Kavita Singh,1,False,,0,0
+V-0464,Apex Industries Ltd,2014-06-11,"373 Harbour Rd, City-17",AC9853721863,Rohit Gupta,64,False,,0,0
+V-0465,Elite Tech LLP,2017-11-06,"259 Park Street, City-18",AC2082550715,Kavita Patel,1,True,,0,0
+V-0466,Vista Builders LLP,2024-03-29,"338 New Town, City-24",AC4469649363,Neha Mehta,7,False,,0,0
+V-0467,Apex Systems Pvt Ltd,2015-11-17,"75 Harbour Rd, City-10",AC8892492961,Anita Rao,6,False,,0,0
+V-0468,Pioneer Works Co,2010-05-04,"155 New Town, City-35",AC6298534979,Anita Iyer,25,False,,0,0
+V-0469,Crown Group Ltd,2010-11-22,"272 MG Road, City-7",AC8032683189,Anita Patel,44,False,,0,0
+V-0470,Summit Group Co,2012-07-07,"237 Sector 12, City-38",AC4309260670,Suresh Singh,64,False,,0,0
+V-0471,Pioneer Systems LLP,2020-03-14,"372 Ring Road, City-17",AC1829270292,Rahul Verma,20,False,,0,0
+V-0472,Silver Tech LLP,2006-04-11,"193 Harbour Rd, City-12",AC4848297723,Sanjay Patel,7,False,,0,0
+V-0473,Pioneer Contractors Ltd,2011-08-11,"394 Civil Lines, City-21",AC2105252271,Amit Patel,1,False,,0,0
+V-0474,Apex Supplies Ltd,2022-06-07,"92 New Town, City-5",AC4988247780,Kavita Rao,22,False,,0,0
+V-0475,National Services Co,2009-01-01,"112 Harbour Rd, City-7",AC9214594061,Neha Verma,12,False,,0,0
+V-0476,Summit Services Co,2005-10-13,"10 New Town, City-10",AC9752437379,Anita Patel,8,False,,0,0
+V-0477,Regal Infra Co,2008-05-26,"245 Civil Lines, City-26",AC4373188745,Suresh Mehta,35,False,,0,0
+V-0478,Elite Tech Ltd,2005-01-28,"171 Ring Road, City-26",AC9826993893,Amit Singh,1,False,,0,0
+V-0479,Pioneer Services Ltd,2016-12-28,"332 Sector 12, City-12",AC3381454037,Anita Mehta,10,False,,0,0
+V-0480,Vertex Logistics Pvt Ltd,2011-09-15,"324 New Town, City-13",AC1601050402,Priya Sharma,1,False,,0,0
+V-0481,Crown Tech Ltd,2021-02-22,"256 Old Market, City-29",AC1070516000,Vikram Sharma,9,False,,0,0
+V-0482,National Builders LLP,2012-07-29,"37 MG Road, City-10",AC5376842282,Kavita Sharma,1,False,CARTEL-03,0,0
+V-0483,Pioneer Enterprises LLP,2010-06-12,"303 Park Street, City-7",AC5785365297,Kavita Mehta,1,False,,0,0
+V-0484,Regal Solutions LLP,2006-06-01,"165 Sector 12, City-3",AC3547281761,Vikram Verma,1,False,,0,0
+V-0485,Metro Industries Ltd,2007-09-17,"284 Industrial Ave, City-29",AC3499610004,Sanjay Verma,15,False,,0,0
+V-0486,Metro Contractors Pvt Ltd,2022-09-29,"362 Harbour Rd, City-19",AC8613098877,Sanjay Mehta,20,False,,0,0
+V-0487,Horizon Traders LLP,2008-03-18,"313 MG Road, City-39",AC5081499111,Neha Singh,13,False,,0,0
+V-0488,Pioneer Services LLP,2014-05-24,"142 MG Road, City-13",AC9209762858,Rohit Gupta,0,True,,0,0
+V-0489,Global Traders Co,2020-01-12,"129 Station Road, City-40",AC7650622478,Rahul Verma,49,False,CARTEL-11,0,0
+V-0490,Metro Services Pvt Ltd,2021-08-10,"249 Old Market, City-8",AC7785025154,Anita Mehta,2,True,,0,0
+V-0491,Silver Systems LLP,2020-03-07,"51 Sector 12, City-27",AC4736133245,Anita Mehta,7,False,,0,0
+V-0492,Horizon Builders LLP,2006-08-26,"313 New Town, City-12",AC6958538302,Sanjay Iyer,5,False,,0,0
+V-0493,Union Infra Pvt Ltd,2021-02-22,"144 Industrial Ave, City-8",AC8952782076,Rohit Rao,30,False,,0,0
+V-0494,Prime Works Co,2008-11-03,"111 Harbour Rd, City-31",AC8889807790,Neha Sharma,3,False,,0,0
+V-0495,Delta Systems Co,2021-05-17,"297 Sector 12, City-38",AC5064122912,Kavita Sharma,49,False,,0,0
+V-0496,Coastal Infra Co,2014-05-16,"363 Industrial Ave, City-11",AC5715870675,Rohit Mehta,1,False,CARTEL-15,2,0
+V-0497,Vertex Supplies LLP,2006-11-12,"348 Old Market, City-8",AC2323202998,Rohit Sharma,52,False,CARTEL-23,1,0
+V-0498,Crown Builders Ltd,2015-03-16,"321 New Town, City-1",AC5598615444,Vikram Sharma,1,False,,0,0
+V-0499,Vista Solutions LLP,2011-08-27,"351 Park Street, City-40",AC9078177421,Rahul Singh,33,False,,0,0

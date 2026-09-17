@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+torch
+pandas
+numpy
+scikit-learn
+pypdf
+python-multipart
