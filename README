@@ -1,0 +1,21 @@
+# AUDIT-AI: Automated Public Procurement Anomaly & Forensic Engine
+
+## Project Overview
+**AUDIT-AI** is an end-to-end machine learning and document forensic platform designed to screen public procurement tender submissions. It ingests raw `.pdf` tender application documents, extracts multi-modal financial, corporate, and textual features, and feeds them into a trained **PyTorch Deep Autoencoder** to detect structural anomalies, bid-rigging risks, and synthetic fraud in real time.
+
+---
+
+## Project Directory Structure
+
+```text
+project/
+├── model/
+│   ├── nnm.py                  # PyTorch model architecture & normal-baseline training pipeline
+│   ├── autoencoder_model.pth   # Generated trained model checkpoint & normalization state
+│   ├── procurement_training_dataset.csv # Master tabular training dataset (~4,653 rows, 66 features)
+│   └── [Relational CSVs: bids.csv, contracts.csv, documents.csv, payments.csv, tenders.csv, vendors.csv]
+├── backend/
+│   ├── main.py                 # FastAPI application endpoint & PDF regex text parser
+│   └── requirements.txt        # Python backend dependencies
+└── frontend/
+    └── index.html              # Responsive single-page web UI for PDF uploads & risk analytics
